@@ -90,9 +90,10 @@ class TwitterClient(object):
 def main(): 
     # creating object of TwitterClient Class 
     api = TwitterClient() 
+    '''
     # calling function to get tweets 
     tweets = api.get_tweets(query = 'RJD', count = 200) 
-  
+    
     # picking positive tweets from tweets 
     ptweets = [tweet for tweet in tweets if tweet['sentiment'] == 'positive'] 
     # percentage of positive tweets 
@@ -113,7 +114,15 @@ def main():
     print("\n\nNegative tweets:") 
     for tweet in ntweets[:10]: 
         print(tweet['text']) 
-  
+    '''
+    startSince = '2020-11-21'
+    endUntil = '2020-11-22'
+
+    t = tweepy.Cursor(api.search, q="cancer", since=startSince, until=endUntil).items(100)
+    for tweet in t:
+        print(tweet)
+
+
 if __name__ == "__main__": 
     # calling main function 
     main() 

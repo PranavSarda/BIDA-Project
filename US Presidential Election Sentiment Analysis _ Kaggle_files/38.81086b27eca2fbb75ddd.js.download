@@ -1,0 +1,202 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[38],{1487:function(e,t,n){"use strict";n.r(t),n.d(t,"DatasetList",(function(){return N}));var a,r,o,i,l,s,c,d,u,m=n(3),g=n(9),p=n(1790),h=n(2358),f=n(2074),b=n(1791),x=n(106),w=n(0),k=n(28),y=n(1903),C=n(1765),E=n(75),F=n(1957),v=n(2038),B=n(1),S=n.n(B),D=n(1857),T=n(206),O=n(1433),j=n(589),_=n(1637),I=S.a.div.withConfig({displayName:"DatasetList_DatasetsWrapper",componentId:"sc-tgxp8y"})(a||(a=Object(m.__makeTemplateObject)(["\n  box-sizing: border-box;\n  ","\n  max-width: 1250px;\n  width: 100%;\n\n  .title-banner__inside {\n    max-width: 1250px;\n  }\n"],["\n  box-sizing: border-box;\n  ","\n  max-width: 1250px;\n  width: 100%;\n\n  .title-banner__inside {\n    max-width: 1250px;\n  }\n"])),x.p),A=S.a.div.withConfig({displayName:"DatasetList_ContentHeaderContainer",componentId:"sc-1s6ib6i"})(r||(r=Object(m.__makeTemplateObject)(["\n  ",";\n"],["\n  ",";\n"])),x.q),M=(S()(v.a).withConfig({displayName:"DatasetList_CtaBanner",componentId:"sc-117gr"})(o||(o=Object(m.__makeTemplateObject)(["\n  margin-bottom: ",";\n\n  div {\n    max-width: unset !important;\n  }\n"],["\n  margin-bottom: ",";\n\n  div {\n    max-width: unset !important;\n  }\n"])),(function(e){return e.theme.material.spacing(5)})),S.a.div.withConfig({displayName:"DatasetList_Wrapper",componentId:"sc-c3jla7"})(i||(i=Object(m.__makeTemplateObject)(["\n  box-sizing: border-box;\n  width: 100%;\n  max-width: 1250px;\n  margin: 0 0 0;\n"],["\n  box-sizing: border-box;\n  width: 100%;\n  max-width: 1250px;\n  margin: 0 0 0;\n"])))),L=S.a.div.withConfig({displayName:"DatasetList_ContentWrapper",componentId:"sc-ujqeib"})(l||(l=Object(m.__makeTemplateObject)(["\n  display: flex;\n  width: 100%;\n"],["\n  display: flex;\n  width: 100%;\n"]))),Z=S.a.div.withConfig({displayName:"DatasetList_ListWrapper",componentId:"sc-qeaubx"})(s||(s=Object(m.__makeTemplateObject)(["\n  flex: 1 1 auto;\n  width: 100%;\n"],["\n  flex: 1 1 auto;\n  width: 100%;\n"]))),K=S.a.div.withConfig({displayName:"DatasetList_TaskSidebarListWrapper",componentId:"sc-12ffko2"})(c||(c=Object(m.__makeTemplateObject)(["\n  flex: 0 0;\n  margin-left: ",";\n  width: 300px;\n\n  @media screen and (max-width: 1050px) {\n    display: none;\n  }\n"],["\n  flex: 0 0;\n  margin-left: ",";\n  width: 300px;\n\n  @media screen and (max-width: 1050px) {\n    display: none;\n  }\n"])),(function(e){return e.theme.material.spacing(4)})),$=(S.a.a.withConfig({displayName:"DatasetList_A",componentId:"sc-q0sgv9"})(d||(d=Object(m.__makeTemplateObject)(["\n  text-decoration: none;\n  font-weight: ",";\n  color: ",";\n"],["\n  text-decoration: none;\n  font-weight: ",";\n  color: ",";\n"])),(function(e){return e.theme.material.typography.fontWeight.medium}),Object(j.darken)(.1,_.b.TextLink)),S.a.div.withConfig({displayName:"DatasetList_BannerWrapper",componentId:"sc-1be6zyh"})(u||(u=Object(m.__makeTemplateObject)(["\n  margin-bottom: ",";\n"],["\n  margin-bottom: ",";\n"])),(function(e){return e.theme.material.spacing(4)}))),N=function(e){function t(t){var n=e.call(this,t)||this;n.renderCtaBanner=function(){var e=n.props,t=e.canSeePromoBanners,a=e.promoTaskUrl;return w.createElement($,null,w.createElement(p.a,{canSeePromoBanners:t,promoTaskUrl:a||void 0,onShowPublicDatasetUploader:function(){if(Object(E.c)("datasets","public-dataset-banner-creation-click",{anonymous:k.a.isAnonymous}),k.a.isAnonymous){var e="/account/login?returnUrl="+encodeURIComponent("/datasets?new=true&public=true")+"&message="+g.Kaggle.Sdk.Users.Protos.LoginMessageId.DATASETS_LOGIN;window.location.href=e}else n.setState({showUploader:!0,isPublicUploader:!0})}}))},n.renderDatasetsList=function(e){return w.createElement(h.a,{tabs:k.a.isAnonymous?["public"]:["public","my","upvoted"],bothClients:e,markdownRenderer:function(e){return w.createElement(C.a,{value:e})}})},n.renderUploader=function(){var e=n.state,t=e.showUploader,a=e.isPublicUploader,r=Object(y.a)();return w.createElement(f.a,{referrer:"datasets",isOpen:t,isPublicByDefault:a,showPublicCreationWarning:a,user:r,key:t?"open":"closed",onCloseRequest:function(){return n.setState({showUploader:!1,isPublicUploader:!1})}})},n.renderBanner=function(){return n.renderNewBanner()},n.renderNewBanner=function(){return w.createElement(A,null,w.createElement(D.a,{title:"Datasets",subtitle:w.createElement(w.Fragment,null,"Find and use datasets or complete tasks."," ",w.createElement(T.v,{href:"/docs/datasets"},"Learn more"),"."),meta:w.createElement(O.a,{leadingIcon:"add",onClick:function(){if(Object(E.c)("SigninRegistration","CujStart",{CujActionType:"createDataset"}),k.a.isAnonymous){var e="/account/login?returnUrl="+encodeURIComponent("/datasets?new=true")+"&message="+g.Kaggle.Sdk.Users.Protos.LoginMessageId.DATASETS_LOGIN;window.location.href=e}else n.setState({showUploader:!0})}},"New Dataset")}))};var a=Object(F.a)(window.location.search);return n.state={showUploader:"true"==a.new,isPublicUploader:"true"==a.public},n}return Object(m.__extends)(t,e),t.prototype.render=function(){var e=this;return w.createElement(g.ClientsContext.Consumer,null,(function(t){return w.createElement(I,{className:"datasets-list"},e.renderBanner(),e.renderUploader(),w.createElement(M,null,e.renderCtaBanner(),w.createElement(L,null,w.createElement(Z,null,e.renderDatasetsList(t)),w.createElement(K,null,w.createElement(b.a,null)))))}))},t}(w.Component)},1637:function(e,t,n){"use strict";n.d(t,"b",(function(){return a})),n.d(t,"i",(function(){return r})),n.d(t,"a",(function(){return o})),n.d(t,"g",(function(){return i})),n.d(t,"d",(function(){return l})),n.d(t,"c",(function(){return c})),n.d(t,"f",(function(){return d})),n.d(t,"e",(function(){return u})),n.d(t,"h",(function(){return m}));var a,r,o,i,l,s=n(1709);!function(e){e.PureWhite="#FFFFFF",e.PureBlack="#000000",e.GrayDarkest="#2A2C30",e.GrayDark="#333333",e.Gray="#919294",e.GrayLight="#B3B3B3",e.GrayLighter="#C4C9CD",e.GrayLightest="#F0F0F0",e.GreenStandard="#2F9C0A",e.GreenStandardInteract="#257A08",e.RedStandard="#C92C2C",e.Transparent="rgba(0,0,0,0)",e.DatacardOverlay="rgba(255, 255, 255, 0.8)",e.BlackOverlay="rgba(0,0,0,0.3)",e.BoxShadow="rgba(0,0,0,0.3)",e.WhiteSolidOverlay="rgba(255, 255, 255, 0.8)",e.BlackSolidOverlay="rgba(0, 0, 0, 0.8)",e.KaggleBlack="#47494D",e.KaggleBlackLight="#6F7175",e.KaggleBlackDark="#323232",e.KaggleBlue="rgb(32, 190, 255)",e.KaggleBlueInteract="#00A7EC",e.KaggleBlueLight="#86DCFF",e.KaggleBlueLightest="#E1F0F6",e.KaggleBlueSuperLight="#EBF9FF",e.KaggleBlueDark="#008ABC",e.KaggleBlueDarkest="#006184",e.KagglePurple="#856CCC",e.KaggleRed="#CC615C",e.KaggleRedDark="#B34834",e.KaggleRedDarkest="#D0021B",e.KaggleRedLightest="#FFEDEF",e.KaggleGreen="#69AC35",e.KaggleOrange="#F69732",e.KaggleGray="#A9A9A9",e.KaggleTeal="#2AC090",e.KaggleYellow="#FAEB4A",e.KaggleEditorBackground="#272C35",e.KaggleEditorGutter="rgba(255,255,255,0.03)",e.KaggleEditorSelectedInteractivePaneContent="#353b47",e.KaggleEditorUnselectedInteractivePaneContent="#3f4654",e.KaggleEditorVariableValueText="#666f81",e.KaggleEditorRowDivider="#494e59",e.KaggleEditorVariableTypeText="#909db7",e.KaggleEditorSortIcon="#2a7ba1",e.KaggleEditorLogBackground="#3E4554",e.KaggleEditorRunningBackground="#B4E9FF",e.KaggleEditorCompletedBackground="#E4F5EF",e.KaggleEditorCompletedBorder="rgba(209, 239, 230, 0.502)",e.KaggleEditorCompletedFont="#158561",e.KaggleEditorErrorBackground="rgba(255, 178, 178, 0.502)",e.KaggleEditorErrorBorder="#F89090",e.KaggleEditorErrorFont="#D27069",e.KaggleEditorBorder="#E7E7E7",e.TextDark="rgba(0,0,0,1.0)",e.TextMedium="rgba(0,0,0,0.7)",e.TextSublink="rgba(0,0,0,0.55)",e.TextLight="rgba(0,0,0,0.4)",e.TextLightFaded="rgba(0,0,0,0.4)",e.TextDisabled="rgba(0,0,0,0.3)",e.TextLink="#008ABC",e.TextLinkHover="rgb(32, 190, 255)",e.TextTag="#699EB2",e.TextWhite="rgb(255,255,255)",e.HoverLight="rgba(0,0,0,0.03)",e.HoverMedium="rgba(0,0,0,0.09)",e.HoverBlue="rgba(32,190,255,0.06)",e.UserNovice="#5AC995",e.UserKaggler="#00BBFF",e.UserExpert="#95628F",e.UserMaster="#F96517",e.UserGrandmaster="#DCA917",e.UserStaff="#008ABC",e.UserNoviceFaded="#8CD6B4",e.UserKagglerFaded="#5FCEFC",e.UserExpertFaded="#95628F",e.UserExpertLight="#AA81A5",e.UserMasterFaded="#F78353",e.UserGrandmasterFaded="#E3C06B",e.UserStaffFaded="#008ABC",e.OrganizationFaded="#D9E1E4",e.Organization="#2E576C",e.Bronze="#8E5B3D",e.Silver="#838280",e.Gold="#B88121",e.InTheMoney="#00D27A",e.SiteBackground="#F6F9FA",e.ContentBackground="#FFFFFF",e.SubcontentBackground="#F8F8F8",e.SubcontentBackgroundFlash="rgb(249,252,253)",e.ContentBorder="rgb(222,223,224)",e.ContentBorderLight="#EBECEC",e.ContentBorderFaded="rgba(222,223,224,0.5)",e.SubheaderBackground="#F2F2F2",e.ContentHeaderBackground="#FBFBFB",e.BannerGray="#3D4045",e.BannerGrayDark="#38393C",e.CodeBackground="#21242a",e.CodeWhite="#f8f8f2",e.QuoteBackground="#f4f4f4",e.QuoteBorder="#cccccc",e.HeaderMenuGrayDark="#383A3D",e.HeaderMenuGrayMedium="#595B5E",e.HeaderMenuGrayLight="#6B6D70",e.HeaderMenuDropdownBorder="#E5E5E5",e.HeaderMenuGreyText="#777777",e.FooterBlack="#111111",e.FooterGrayLight="#C4C9CD",e.FooterGrayDark="#808080",e.FooterBorder="#DDDDDD",e.CompFeatured="#FF625C",e.CompRecruitment="#F8A650",e.CompResearch="#F4CE4A",e.CompPlayground="#00BBFF",e.CompGettingstarted="#5AC996",e.CompInclass="#86DCFF",e.CompMasters="#C0C0C0",e.CompAnalytics="#F8A650",e.InputBackgroundEdit="rgb(254,236,222)",e.CodeHighlightDeleteDark="rgb(243,182,182)",e.CodeHighlightDeleteMedium="rgb(249,220,220)",e.CodeHighlightDeleteLight="rgb(252,237,237)",e.CodeHighlightInsertDark="rgb(182,243,229)",e.CodeHighlightInsertMedium="rgb(220,249,241)",e.CodeHighlightInsertLight="rgb(237,252,248)",e.SocialIconFacebook="#3A589B",e.SocialIconFacebookLight="lighten(@color--social-icon--facebook, 5%)",e.SocialIconFacebookLightest="lighten(@color--social-icon--facebook, 10%)",e.SocialIconFacebookDark="darken(@color--social-icon--facebook, 5%)",e.SocialIconGoogle="#DF4A32",e.SocialIconGoogleLight="lighten(@color--social-icon--google, 5%)",e.SocialIconGoogleLightest="lighten(@color--social-icon--google, 10%)",e.SocialIconGoogleDark="darken(@color--social-icon--google, 5%)",e.SocialIconYahoo="#4B02BC",e.SocialIconYahooLight="lighten(@color--social-icon--yahoo, 10%)",e.SocialIconYahooLightest="lighten(@color--social-icon--yahoo, 15%)",e.SocialIconYahooDark="darken(@color--social-icon--yahoo, 5%)",e.EasternBlue="#1E9AB0",e.Sundown="#FFB1B3",e.Shakespeare="#4EABD1",e.MountainMeadow="#1AB385",e.BridalHeath="#FFF8ED",e.Alabaster="#FAFAFA",e.Iron="#D4D7D9",e.MineShaft="#373737",e.Concrete="#f2f2f2",e.MilanoRed="#b81104",e.Gothic="#6D92A1",e.Boulder="#7A7A7A",e.BlackSqueeze="#F2FAFA",e.BondiBlue="#0095b6",e.Botticelli="#c7dde5",e.DustyGray="#959595",e.Alto="#dbdbdb",e.Spindle="#b6d1ea",e.DoveGray="#6d6c6c",e.Nobel="#b7b1b1",e.Gallery="#efefef",e.PacificBlue="#009dc4",e.SilverChalice="#ACACAC",e.Honeydew="#F0FFF0",e.Abbey="#4C4F56",e.CrownOfThorns="#771f1f",e.GrayChateau="#A2AAB3",e.EasternBlueDarker="#158BBA",e.PolarDark="#E7F4F9",e.AquaIsland="#A1DAD7",e.PattensBlue="#DEF5FF",e.CatskillWhite="#EFF7F8",e.CatskillWhiteDarker="#D6DEDF",e.ConsoleTextQueued="rgb(172, 175, 180)",e.ConsoleTextStarting="rgb(239, 133, 7)",e.ConsoleTextRunning="rgb(29, 187, 153)",e.ConsoleTextEmphasis="rgb(231, 232, 233)",e.AdminOnlyBorder="#E6CAB0",e.InfoMessage="#008665",e.ErrorMessage="#803433"}(a||(a={})),function(e){e[e.ZSunken=-1]="ZSunken",e[e.ZBackground=0]="ZBackground",e[e.ZGround=1]="ZGround",e[e.ZForeground=2]="ZForeground",e[e.ZRaised=3]="ZRaised",e[e.Z4=4]="Z4",e[e.Z5=5]="Z5",e[e.Z6=6]="Z6",e[e.Z10=10]="Z10",e[e.Z11=11]="Z11",e[e.Z12=12]="Z12",e[e.Z15=15]="Z15",e[e.Z19=19]="Z19",e[e.Z20=20]="Z20",e[e.Z24=24]="Z24",e[e.Z25=25]="Z25",e[e.Z30=30]="Z30",e[e.Z50=50]="Z50",e[e.Z100=100]="Z100",e[e.Z150=150]="Z150",e[e.Z160=160]="Z160",e[e.Z170=170]="Z170",e[e.Z200=200]="Z200",e[e.Z300=300]="Z300",e[e.Z400=400]="Z400",e[e.Z999=999]="Z999",e[e.Z1000=1e3]="Z1000",e[e.Z1001=1001]="Z1001",e[e.Z1002=1002]="Z1002",e[e.Z1003=1003]="Z1003",e[e.Z1010=1010]="Z1010",e[e.Z2000=2e3]="Z2000",e[e.Z2500=2500]="Z2500",e[e.Z3000=3e3]="Z3000",e[e.Z99999=99999]="Z99999"}(r||(r={})),function(e){e.ScreenMobileMax="480px",e.ScreenTabletMin="481px",e.ScreenTabletMax="768px",e.ScreenDesktopMin="769px",e.ScreenDesktopMax="1024px",e.ScreenDesktopLargeMin="1025px",e.ScreenRedesignOffset="152px"}(o||(o={})),function(e){e.SiteWidthDesktop="950px",e.SiteWidthDesktopWrapper="990px",e.SiteWidthDesktopWide="90vw",e.BorderRadius="4px",e.ResponsiveContentPadding="20px",e.PadXs="4px",e.PadS="8px",e.PadM="16px",e.PadL="24px",e.PadXl="32px",e.PadXxl="40px",e.BarHeight="48px",e.CardS="80px",e.CardM="120px",e.DataGridMargin="12.5px"}(i||(i={})),function(e){e.FontFamilyInter="'Inter', sans-serif",e.FontFamilyZeitung="'zeitung', sans-serif",e.FontFamilyPressura="'Pressura', sans-serif",e.FontFamilyOpenSans="'Open Sans', sans-serif",e.FontFamilyMonospace="'Roboto Mono', Monaco, Consolas, monospace",e.FontFamilyFontAwesome="FontAwesome",e.FontWeightNormal="400",e.FontWeightMedium="500",e.FontWeightSemibold="600",e.FontWeightBold="700",e.FontBaseNumber="14",e.FontBasePx="14px",e.FontBaseBrowserMultiplier="87.5%",e.LineHeightNormal="1.375",e.LineHeightShort="1.2",e.LineHeightTall="1.5",e.FontSizeXs="10px",e.FontSizeS="12px",e.FontSizeM="14px",e.FontSizeL="20px",e.FontSizeXl="24px",e.FontSizeXxl="32px"}(l||(l={}));var c={Inter:"font-family: 'Inter', sans-serif;",Pressura:"font-family: 'Pressura', sans-serif;",OpenSans:"font-family: 'Open Sans', sans-serif;",Monospace:"font-family: 'Roboto Mono', Monaco, Consolas, monospace;",FontAwesome:"font-family: FontAwesome;",MaterialIcons:"font-family: undefined;",Consolas:"font-family: undefined;",Zeitung:"font-family: 'zeitung', sans-serif;"},d={screenMedia:s.b,min:function(e){return Object(s.b)({"min-width":e})},max:function(e){return Object(s.b)({"max-width":e})},mobile:Object(s.b)({"max-width":o.ScreenMobileMax}),nonMobile:Object(s.b)({"min-width":o.ScreenTabletMin}),tablet:Object(s.b)({"min-width":o.ScreenTabletMin,"max-width":o.ScreenTabletMax}),nonDesktop:Object(s.b)({"max-width":o.ScreenTabletMax}),desktop:Object(s.b)({"min-width":o.ScreenDesktopMin,"max-width":o.ScreenDesktopMax}),desktopLarge:Object(s.b)({"min-width":o.ScreenDesktopLargeMin})},u={default:"\n          text-decoration: none;\n          color: "+a.KaggleBlueDark+";\n          cursor: pointer;\n          &:hover {\n              color: "+a.KaggleBlue+";\n          }\n      ",alternate:"\n          text-decoration: none;\n          color: "+a.KaggleBlack+";\n          cursor: pointer;\n          font-weight: "+l.FontWeightMedium+";\n          &:hover {\n              text-decoration: underline;\n          }\n      ",danger:"\n          color: "+a.KaggleRed+";\n          cursor: pointer;\n          font-weight: "+l.FontWeightMedium+";\n          text-decoration: none;\n          &:hover {\n              cursor: pointer;\n              text-decoration: underline;\n          }\n      ",boldReserved:"\n          display: block;\n          content: attr(title);\n          font-weight: "+l.FontWeightMedium+";\n          height: 0;\n          color: transparent;\n          overflow: hidden;\n          visibility: hidden;\n      "},m=(l.FontWeightMedium,c.Inter,l.FontWeightMedium,a.KaggleBlueDark,c.Inter,l.FontWeightMedium,a.KaggleBlue,{truncate:"\n          overflow: hidden;\n          text-overflow: ellipsis;\n          white-space: nowrap;\n      "})},1709:function(e,t,n){"use strict";n.d(t,"b",(function(){return s})),n.d(t,"a",(function(){return d})),n.d(t,"c",(function(){return m}));var a=n(3),r=n(1),o=n.n(r),i=n(22);function l(e,t){return Object.entries(e).map((function(e){var t=Object(a.__read)(e,2);return"("+t[0]+": "+t[1]+")"})).join(" "+t+" ")}function s(e){return function(t){for(var n=[],o=1;o<arguments.length;o++)n[o-1]=arguments[o];return Object(r.css)(c||(c=Object(a.__makeTemplateObject)(["\n    @media "," {\n      ","\n    }\n  "],["\n    @media "," {\n      ","\n    }\n  "])),["only screen",l(e,"and")].join(" and "),r.css.apply(void 0,Object(a.__spread)([t],n)))}}var c,d=function(e){return function(){for(var t=[],n=0;n<arguments.length;n++)t[n]=arguments[n];var a=e||{},r=a.prefix,o=void 0===r?"":r,l=a.suffix,s=void 0===l?"":l;return t.length?i(t).split(" ").map((function(e){return o+e+s})).join(" "):o+s}},u={attr:/^\[[a-z0-9_-]*\]$/i,attrValue:/^\[[a-z0-9_-]*(|=[a-z0-9_-]*|=\"[a-z0-9_-]*\"|=\'[a-z0-9_-]*\')\]$/i,className:/^\.([a-z_]|[-][a-z_])[a-z0-9_-]*$/i,debug:/^\![a-z0-9_-]*$/i,id:/^\#[a-z][a-z0-9_-]*$/i,tag:/^[a-z0-9]*$/i},m=function(e){if(!e)return o.a.div;if("string"!=typeof e||e.indexOf(";")>-1)return o()(e);var t="div",n={},r=[],l=[];return e.split(/(?=\.)|(?=\#)|(?=\[)|(?=\!)/g).forEach((function(i){if(i=i.trim(),u.tag.test(i))o.a[i]?t=i:r.push(i);else if(u.id.test(i)){if("id"in n)throw new TypeError("Id defined more than once.");n.id=i.slice(1)}else if(u.className.test(i))l.push(i.slice(1));else if(u.debug.test(i))r.push(i.slice(1));else if(u.attr.test(i)){if((c=i.slice(1,-1).trim())in n)throw new TypeError("Attribute "+c+" defined more than once.");n[c]=!0}else{if(!u.attrValue.test(i))throw new TypeError("Unrecognized stylist syntax "+i+" in "+e+".");var s=Object(a.__read)(i.slice(1,-1).trim().split("="),2),c=s[0],d=s[1];if(c=c.trim(),d=d.trim(),c in n)throw new TypeError("Attribute "+c+" defined more than once.");switch(("'"==d[0]&&"'"==d[d.length-1]||'"'==d[0]&&'"'==d[d.length-1])&&(d=d.slice(1,-1)),d.toLowerCase()){case"true":n[c]=!0;break;case"false":n[c]=!1;break;default:n[c]=isNaN(d)?d:parseFloat(d)}}})),l.length&&(n.className=i(l)),r.length&&(n["data-debug"]=(n["data-debug"]||"")+r.join(" ")),o.a[t].attrs(n)}},1746:function(e,t,n){"use strict";n.d(t,"a",(function(){return r}));var a=n(28);function r(e,t){e&&(e.indexOf("$$")>-1||e.indexOf("\\[")>-1||e.indexOf("\\(")>-1)&&("undefined"!=typeof MathJax&&MathJax?MathJax.Hub?MathJax.Hub.Queue(["Typeset",MathJax.Hub,t]):a.a.warn("Unable to find MathJax.Hub, aborting the LaTeX rendering process."):a.a.warn("LaTeX content was detected inside markdown, but MathJax is not loaded. Use @await Components.MathJaxAsync(Html)"))}},1765:function(e,t,n){"use strict";var a=n(3),r=n(1746),o=n(1423),i=n(1425),l=n(0),s=n(147),c={allowedTags:o.defaults.allowedTags.concat(["h1","h2","img"]),allowedAttributes:{a:["href","name","target"],div:["class"],img:["src","alt","width","height","style"]},transformTags:{a:function(e,t){if(t.href&&t.href.startsWith("emoji::"))return{tagName:"span",attribs:{title:(n=t.href.split("::"))[n.length-1]}};if(t.href&&t.href.startsWith("user::")){var n,r=(n=t.href.split("::"))[n.length-1];return{tagName:e,attribs:Object(a.__assign)(Object(a.__assign)({},t),{href:r})}}return{tagName:e,attribs:t}}}},d={disableForced4SpacesIndentedSublists:!0,emoji:!0,excludeTrailingPunctuationFromURLs:!0,ghCompatibleHeaderId:!0,ghMentions:!0,ghMentionsLink:"https://www.kaggle.com/{u}",openLinksInNewWindow:!0,prefixHeaderId:!0,parseImgDimensions:!0,simpleLineBreaks:!0,simplifiedAutoLink:!0,smartIndentationFix:!0,strikethrough:!0,tables:!0,tablesHeaderId:!0,tasklists:!0};t.a=l.memo((function(e){var t=l.useRef(new i.Converter(d)),n=l.useRef(null);l.useEffect((function(){var t,o,i=n.current;if(i){Object(r.a)(e.value||"",n.current);var l=Array.from(i.querySelectorAll(".markdown-converter__text--rendered table"));try{for(var s=Object(a.__values)(l),c=s.next();!c.done;c=s.next()){var d=c.value;if(!d.parentElement||!d.parentElement.classList.contains("tableWrapper")){var u=document.createElement("div");u.classList.add("tableWrapper"),d.parentElement.insertBefore(u,d),u.appendChild(d)}}}catch(e){t={error:e}}finally{try{c&&!c.done&&(o=s.return)&&o.call(s)}finally{if(t)throw t.error}}}}),["value"]);var u;return Object(s.j)(l.createElement("div",{className:"markdown-converter__text--rendered",ref:n}),(u=e.value.replace(/&gt;/g,">").replace(/&lt;/g,"<"),u=t.current.makeHtml(u),o(u,c)))}))},1775:function(e,t,n){"use strict";n.d(t,"a",(function(){return b}));var a=n(3),r=n(67),o=n(1468),i=n(2367),l=n(1610),s=n(166),c=n(1),d=n.n(c),u=n(0),m=n(174);const g=d.a.div`
+  margin: ${e=>e.theme.material.spacing(2)};
+  width: 100%;
+  overflow-y: visible;
+
+  .searchTextField {
+    width: 100%;
+  }
+
+  .mdc-menu-surface {
+    width: 100%;
+    max-height: 400px;
+  }
+`,p=d()(r.a)`
+  width: ${e=>e.width};
+`;let h=0,f=0;const b=e=>{const{className:t,label:n,small:r,loadOptions:c,onSelect:d,optionRenderer:b=(e=>u.createElement("div",null,e)),shouldExcludeOption:x,disabled:w,hoistToBody:k=!0}=e,[y,C]=u.useState(""),[E,F]=u.useState([]),[v,B]=u.useState(!1),S=u.useRef();u.useEffect(()=>{S.current=Object(m.a)(200,e=>Object(a.__awaiter)(void 0,void 0,void 0,(function*(){B(!0),F([]),h++;const t=h,n=yield c(e),a=x?n.filter(e=>!(null==x?void 0:x(e))):n;t>f&&(f=t,B(!1),F(a))})))},[x]);const D=u.useRef(null);return u.createElement(g,{className:t},u.createElement(o.a,{ref:D},u.createElement(i.a,{placeholder:w?"disabled":n,small:r,disabled:w,value:y,onChange:e=>{var t;C(e.target.value),null===(t=S.current)||void 0===t||t.call(S,e.target.value)},className:"searchTextField"}),u.createElement(l.a,{open:!!y||v,onClose:()=>C(""),anchorCorner:"bottomLeft",hoistToBody:k,style:{zIndex:1001}},u.createElement(p,{className:"fullWidthSelectBoxList",variant:"dense",width:D.current?D.current.getBoundingClientRect().width+"px":"initial"},v&&u.createElement(s.a,null,"Searching..."),!v&&E.map(e=>u.createElement(s.a,{key:e.id,onClick:()=>{C(""),d(e)}},b(e))),!v&&y&&0===E.length&&u.createElement(s.a,null,"No results found.")))))}},1790:function(e,t,n){"use strict";var a=n(0),r=n(9),o=n(2046);const i=e=>{const{onShowPublicDatasetUploader:t}=e,n=a.useContext(r.ClientsContext),{legacyClients:{analyticsClient:i}}=n;a.useEffect(()=>{i.logger.report("datasets","creation-banner-show")},[]);return a.createElement(o.a,{title:"Create Public Datasets",description:"Open a dialogue, accept contributions, and get insights: improve your dataset by publishing it on Kaggle.",graphic:"/static/images/datasets/public_dataset.png",primaryButtonText:"Create Public Dataset",onPrimaryClick:()=>{i.logger.report("datasets","creation-banner-create-click"),t()}})},l=e=>{const{promoTaskUrl:t}=e,n=a.useContext(r.ClientsContext),{legacyClients:{analyticsClient:i}}=n;a.useEffect(()=>{i.logger.report("datasets","task-banner-show",{promoTaskUrl:t})},[]);return a.createElement(o.a,{title:"Engage With Dataset Tasks",description:"You can now actively engage with datasets with thousands of tasks! Help the community by creating and solving Tasks on datasets!",graphic:"/static/images/datasets/task_static.png",primaryButtonText:void 0!==t?"Tackle a new task":void 0,secondaryButtonText:"See Details",onPrimaryClick:void 0!==t?()=>{t&&(i.logger.report("datasets","task-banner-tackle-task-click"),window.location.href=t)}:void 0,onSecondaryClick:()=>{i.logger.report("datasets","task-banner-forum-post-click"),window.location.href="/product-feedback/121068"}})};n.d(t,"a",(function(){return s}));const s=a.memo(e=>{const{canSeePromoBanners:t,promoTaskUrl:n,onShowPublicDatasetUploader:r}=e,[o]=a.useState(Math.random());return t?o<=.5?a.createElement(i,{onShowPublicDatasetUploader:r}):a.createElement(l,{promoTaskUrl:n}):null},(e,t)=>t.canSeePromoBanners===e.canSeePromoBanners&&t.promoTaskUrl===e.promoTaskUrl)},1791:function(e,t,n){"use strict";var a=n(3),r=n(9),o=n(1),i=n.n(o),l=n(0),s=n(1936),c=n(1744),d=n(206),u=n(1949),m=n(1948),g=n(110);const p=i()(c.f)`
+  padding: ${c.b};
+`,h=i()(d.u)`
+  flex: 1 1 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: ${c.n};
+`,f=i.a.div`
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+`,b=i.a.a`
+  text-decoration: none;
+`,x=e=>{const{item:t,onSelect:n}=e,{title:a,submissionCount:r,datasetInfo:o,id:i}=t,s=`/${o.datasetSlug}`,d=`${s}/tasks?taskId=${i}`;return l.createElement(b,{href:d,title:a,onClick:e=>{e.ctrlKey||e.shiftKey||e.metaKey||e.button&&1===e.button||(e.preventDefault(),n())}},l.createElement(p,null,l.createElement(c.g,null,l.createElement(h,null,a),l.createElement(f,null,l.createElement(c.h,null,g("Submission",r,!0)," · In ",l.createElement(c.j,{href:s,target:"_blank",rel:"noopener",onClick:e=>{e.stopPropagation()}},o.datasetTitle))))))},w=i()(c.c)`
+  width: 300px;
+`,k=i()(u.a)`
+  width: 300px;
+`,y=i()(m.a)`
+  width: 300px;
+`,C=i.a.div`
+  display: flex;
+  align-items: center;
+  padding: ${c.b};
+  border-bottom: 1px solid ${c.a};
+`,E=i()(d.u)`
+  flex: 1 1 0;
+`,F=i.a.ul`
+  list-style: none;
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-height: 385px;
+
+  ::-webkit-scrollbar {
+    width: ${e=>e.theme.material.spacing(1)};
+    background-color: ${e=>e.theme.material.color.brand.grey[50]};
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: ${e=>e.theme.material.color.brand.grey[500]};
+  }
+
+  a:first-child > li {
+    border-top: 0;
+  }
+`,v=e=>{const{title:t,state:n,onSelect:a}=e;return"loading"===n?l.createElement(y,{text:"Loading tasks..."}):"error"===n?l.createElement(k,{text:"An error occured while loading the tasks."}):l.createElement(w,null,l.createElement(C,null,l.createElement(E,null,t)),l.createElement(F,null,n.map((e,t)=>l.createElement(x,{key:e.id,item:e,onSelect:()=>a(e,t)}))))};n.d(t,"a",(function(){return S}));const B=i.a.div`
+  margin-bottom: ${c.b};
+`;let S=(()=>{class e extends l.Component{constructor(){super(...arguments),this.state={list:"loading"},this.loadList=()=>Object(a.__awaiter)(this,void 0,void 0,(function*(){const{clients:{datasetsClient:e}}=this.context;try{const t=yield e.getSidebarTasks({});this.setState({list:{yourTasks:t.yourTasks,openTasks:t.openTasks}}),Object(s.a)(this.context,"load-sidebar-tasks")}catch(e){Object(s.a)(this.context,"load-sidebar-tasks-error",{error:e}),this.setState({list:"error"})}})),this.onSelect=(e,t)=>{Object(s.a)(this.context,"sidebar-select",{taskId:e.id,index:t});const n=`${e.datasetInfo.datasetSlug}/tasks?taskId=${e.id}`;window.open(n,"_self")}}render(){const{list:e}=this.state,t="loading"!==e&&"error"!==e&&e.yourTasks.length>0?l.createElement(B,null,l.createElement(v,{title:"Your Tasks",state:e.yourTasks,onSelect:this.onSelect})):void 0,n=l.createElement(B,null,l.createElement(v,{title:"Open Tasks",state:"loading"===e||"error"===e?e:e.openTasks,onSelect:this.onSelect}));return l.createElement(l.Fragment,null,n,t)}componentDidMount(){this.loadList()}}return e.contextType=r.ClientsContext,e})()},1857:function(e,t,n){"use strict";var a=n(1),r=n.n(a),o=n(0),i=n(206),l=n(6);const s={light:{separator:l.c},dark:{separator:l.j}},c=r.a.div`
+  border-bottom: ${e=>e.separator&&`1px solid ${e.theme.material.color.brand.grey[200]}`};
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: ${e=>e.paddingBottom};
+  padding-top: 62px;
+  width: 100%;
+
+  @media (max-width: ${e=>e.theme.size.breakpoint.screen.tablet.max}) {
+    flex-wrap: ${e=>"wrap"===e.wrap&&"wrap"};
+  }
+`,d=r.a.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: ${e=>e.theme.material.spacing(165)};
+  width: 100%;
+`,u=r()(i.k)`
+  font-weight: bold;
+  margin-bottom: ${e=>e.theme.material.spacing(2)};
+  font-family: ${e=>e.theme.material.typography.display1.fontFamily};
+`,m=r()(i.b)`
+  line-height: 22px;
+`,g=r.a.div`
+  align-items: center;
+  display: flex;
+  min-height: 100%;
+  flex-shrink: 0;
+
+  @media (max-width: ${e=>e.theme.size.breakpoint.screen.tablet.max}) {
+    display: ${e=>"hide"===e.wrap&&"none"};
+    margin-top: ${e=>"wrap"===e.wrap&&e.theme.material.spacing(4)};
+  }
+`,p=e=>{const{className:t,title:n,separator:a,subtitle:r,meta:i,wrap:l="wrap"}=e,s=r||i?"58px":"30px";return o.createElement(c,{wrap:l,className:t,paddingBottom:s,separator:a},o.createElement(d,null,o.createElement(u,null,n),o.createElement(m,null,r)),o.createElement(g,{wrap:l},i))};n.d(t,"a",(function(){return y}));const h=r.a.div`
+  border-bottom: ${e=>e.separator&&`1px solid ${e.contentTheme.separator}`};
+  display: flex;
+  height: 200px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  @media (max-width: ${e=>e.theme.size.breakpoint.screen.tablet.max}) {
+    flex-wrap: ${e=>"wrap"===e.wrap&&"wrap"};
+    justify-content: center;
+  }
+`,f=r.a.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 48px;
+  max-width: ${e=>e.theme.material.spacing(165)};
+  width: 100%;
+`,b=r()(i.k)`
+  font-weight: bold;
+  margin-bottom: ${e=>e.theme.material.spacing(4)};
+  font-family: ${e=>e.theme.material.typography.display1.fontFamily};
+`,x=r()(i.s)`
+  line-height: 22px;
+`,w=r.a.div`
+  margin-top: 24px;
+`,k=r.a.div`
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-shrink: 0;
+
+  @media (max-width: ${e=>e.theme.size.breakpoint.screen.tablet.max}) {
+    display: ${e=>"hide"===e.wrap&&"none"};
+  }
+`,y=e=>{const{className:t,title:n,separator:r,subtitle:i,meta:l,wrap:c="wrap",useKM:d,style:u,actions:m}=e,g=o.useContext(a.ThemeContext),y=s[g.name];return d?o.createElement(h,{wrap:c,className:t,separator:r,contentTheme:y,style:u},o.createElement(f,null,o.createElement(b,{useKM:!0},n),o.createElement(x,{useKM:!0},i),m&&o.createElement(w,null,m)),o.createElement(k,{wrap:c},l)):o.createElement(p,Object.assign({},e))}},1927:function(e,t,n){"use strict";var a=n(1),r=n.n(a),o=n(0),i=n(206),l=n(6);const s={light:{border:l.d,hover:l.n,selected:l.n},dark:{border:l.i,default:l.s,selected:l.s}};n.d(t,"a",(function(){return g}));const c=r.a.div`
+  display: flex;
+  flex-wrap: nowrap;
+  height: 48px;
+  width: 100%;
+  overflow-x: scroll;
+
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  border-bottom: ${e=>e.showDivider&&`1px solid ${s[e.theme.name].border}`};
+`,d=r.a.button`
+  padding: 0 12px;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+
+  &:hover {
+    ${i.r} {
+      color: ${e=>s[e.theme.name].selected};
+    }
+  }
+`,u=r.a.span`
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: ${e=>s[e.theme.name].selected};
+  border: none;
+  border-radius: 3px 3px 0 0;
+`,m=r.a.div`
+  height: 100%;
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+  position: relative;
+`,g=e=>{const[t,n]=o.useState(e.selectedIndex||0);return o.useEffect(()=>{"number"==typeof e.selectedIndex&&n(e.selectedIndex)},[e.selectedIndex]),o.createElement(c,{showDivider:e.showDivider},e.tabs.map((a,r)=>o.createElement(d,{onClick:t=>{n(r),e.onSelectItem(r,t)},key:a},o.createElement(m,null,o.createElement(i.r,{emphasis:r===t?"high":"low"},a),r===t&&o.createElement(u,null)))))}},1936:function(e,t,n){"use strict";n.d(t,"a",(function(){return a}));const a=(e,t,n)=>{const{legacyClients:{analyticsClient:a}}=e;a.logger.report("datasets",`task-${t}`,n)}},1948:function(e,t,n){"use strict";n.d(t,"a",(function(){return u}));var a=n(206),r=n(1611),o=n(1),i=n.n(o),l=n(0),s=n(1744);const c=i()(s.c)`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 256px;
+`,d=i()(a.b)`
+  margin-top: ${s.b};
+`,u=e=>{const{text:t,className:n}=e;return l.createElement(c,{className:n},l.createElement(r.a,{size:"medium"}),l.createElement(d,null,t))}},1949:function(e,t,n){"use strict";n.d(t,"a",(function(){return u}));var a=n(206),r=n(386),o=n(1),i=n.n(o),l=n(0),s=n(1744);const c=i()(s.c)`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 256px;
+`,d=i()(a.b)`
+  margin-top: ${s.b};
+  color: ${e=>e.theme.material.color.status.error[900]};
+`,u=e=>{const{text:t,className:n}=e;return l.createElement(c,{className:n},l.createElement(r.a,{color:o.defaultTheme.material.color.status.error[900],icon:"warning"}),l.createElement(d,null,t))}},1957:function(e,t,n){"use strict";n.d(t,"a",(function(){return r})),n.d(t,"b",(function(){return o}));var a=n(3);function r(e){var t,n;if(e&&e.length){var r={},o=e.replace(/\?/g,"").split("&");try{for(var i=Object(a.__values)(o),l=i.next();!l.done;l=i.next()){var s=l.value,c=Object(a.__read)(s.split("="),2),d=c[0],u=c[1];r[d]=u,r[d.toLowerCase()]=u}}catch(e){t={error:e}}finally{try{l&&!l.done&&(n=i.return)&&n.call(i)}finally{if(t)throw t.error}}return r}return{}}function o(e){return"?"+Object.keys(e).map((function(t){return encodeURIComponent(t)+"="+encodeURIComponent(e[t])})).join("&")}},2038:function(e,t,n){"use strict";(function(e){n.d(t,"a",(function(){return y}));var a,r,o,i,l,s,c,d,u=n(3),m=n(1),g=n.n(m),p=n(589),h=n(1637),f=g.a.a.withConfig({displayName:"CtaBanner_A",componentId:"sc-112lc5q"})(a||(a=Object(u.__makeTemplateObject)(["\n  display: block;\n  text-decoration: none;\n"],["\n  display: block;\n  text-decoration: none;\n"]))),b=g.a.div.withConfig({displayName:"CtaBanner_Wrapper",componentId:"sc-1xs1ie5"})(o||(o=Object(u.__makeTemplateObject)(["\n  display: flex;\n  justify-content: space-between;\n\n  max-width: 950px;\n  position: relative;\n  padding: ",";\n\n  font-family: ",";\n  color: ",";\n  text-align: left;\n\n  background-color: #dff0f7;\n  border: 1px solid #cae6f1;\n  border-radius: ",";\n\n  transition: all 0.2s ease;\n\n  ",":hover & {\n    background-color: ",";\n  }\n\n  ",";\n"],["\n  display: flex;\n  justify-content: space-between;\n\n  max-width: 950px;\n  position: relative;\n  padding: ",";\n\n  font-family: ",";\n  color: ",";\n  text-align: left;\n\n  background-color: #dff0f7;\n  border: 1px solid #cae6f1;\n  border-radius: ",";\n\n  transition: all 0.2s ease;\n\n  ",":hover & {\n    background-color: ",";\n  }\n\n  ",";\n"])),h.g.PadS,h.d.FontFamilyInter,Object(p.darken)(.1,h.b.TextLink),h.g.BorderRadius,f,Object(p.darken)(.02,"#dff0f7"),h.f.mobile(r||(r=Object(u.__makeTemplateObject)(["\n        border-left-width:0;\n        border-right-width:0;\n        border-radius:0;\n        justify-content: flex-start;\n    "],["\n        border-left-width:0;\n        border-right-width:0;\n        border-radius:0;\n        justify-content: flex-start;\n    "])))),x=g.a.div.withConfig({displayName:"CtaBanner_TextWrapper",componentId:"sc-1ou9asl"})(l||(l=Object(u.__makeTemplateObject)(["\n  flex: 1 1 auto;\n  text-align: left;\n  align-self: center;\n\n  font-size: ",";\n  line-height: ",";\n  padding: "," ",";\n\n  ",";\n"],["\n  flex: 1 1 auto;\n  text-align: left;\n  align-self: center;\n\n  font-size: ",";\n  line-height: ",";\n  padding: "," ",";\n\n  ",";\n"])),h.g.PadM,h.g.PadL,h.g.PadXs,h.g.PadM,h.f.mobile(i||(i=Object(u.__makeTemplateObject)(["\n        font-size: ",";\n        line-height: 18px;\n    "],["\n        font-size: ",";\n        line-height: 18px;\n    "])),h.d.FontSizeS)),w=g.a.strong.withConfig({displayName:"CtaBanner_Title",componentId:"sc-sf635v"})(s||(s=Object(u.__makeTemplateObject)(["\n  font-weight: ",";\n"],["\n  font-weight: ",";\n"])),h.d.FontWeightMedium),k=g.a.img.withConfig({displayName:"CtaBanner_Img",componentId:"sc-1jwac39"})(d||(d=Object(u.__makeTemplateObject)(["\n  height: 61px;\n  padding: "," ",";\n\n  ",";\n"],["\n  height: 61px;\n  padding: "," ",";\n\n  ",";\n"])),h.g.PadXs,h.g.PadM,h.f.mobile(c||(c=Object(u.__makeTemplateObject)(["\n        display: none;\n    "],["\n        display: none;\n    "]))));function y(t){var n=t.title,a=t.subtitle,r=t.img,o=t.href,i=t.className,l=t.openInNewWindow,s=e.createElement(b,{className:o?void 0:i},e.createElement(x,null,e.createElement(w,null,n),a&&e.createElement(e.Fragment,null,e.createElement("br",null),a)),r&&e.createElement(k,{src:r.src,alt:r.alt}));return o?e.createElement(f,{href:o,title:n,className:i,target:l?"_blank":"_self"},s):s}}).call(this,n(0))},2169:function(e,t,n){"use strict";n.d(t,"a",(function(){return p}));var a=n(1),r=n.n(a),o=n(0),i=n(386),l=n(206),s=n(1467),c=n(398),d=n(1468);const u=r.a.div`
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  :focus {
+    outline: none;
+    border: none;
+  }
+`,m=r()(i.a)`
+  margin-right: ${e=>e.theme.material.spacing(4)};
+`,g=r()(i.a)`
+  margin-left: ${e=>e.theme.material.spacing(2)};
+`,p=({options:e,optionIcons:t,onSelect:n,value:a,hoistToBody:r=!0,renderButton:i,renderOption:p,focusOnOpen:h})=>{const[f,b]=o.useState(!1);return o.createElement(d.a,null,o.createElement(s.a,{open:f,focusOnOpen:h,anchorCorner:"bottomLeft",hoistToBody:r,onSelect:t=>{t.detail.item.textContent&&n(e[t.detail.index],t.detail.index)},onClose:()=>b(!1),style:{zIndex:1001}},e.map((e,n)=>o.createElement(c.a,{key:e},t&&t[n]&&o.createElement(m,{useKM:!0,icon:t[n]}),p?p(e):e))),o.createElement(u,{tabIndex:0,onClick:()=>b(!0)},i?i(a):o.createElement(l.s,{emphasis:"high"},a),o.createElement(g,{icon:"arrow_drop_down",size:"small"})))}}}]);

@@ -1,0 +1,546 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20203.20.1110.1623                               -->
+<workbook original-version='18.1' source-build='2020.3.3 (20203.20.1110.1623)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Multiple Connections' inline='true' name='federated.0cuku440mj1qkc11m2os41p7arwc' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='1.bjp_general' name='excel-direct.1786a4l1lbw3ch11o9fjz06piak7'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/prana/BIDA Project/Indian Scenario/1.bjp_general.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1786a4l1lbw3ch11o9fjz06piak7' name='Sentiment Analysis ' table='[&apos;Sentiment Analysis $&apos;]' type='table'>
+          <columns gridOrigin='A1:Q1001:no:A1:Q1001:0' header='yes' lost='0' outcome='2' processed='6000'>
+            <column datatype='datetime' name='Created-At' ordinal='0' />
+            <column datatype='string' name='From-User' ordinal='1' />
+            <column datatype='string' name='From-User-Id' ordinal='2' />
+            <column datatype='string' name='To-User' ordinal='3' />
+            <column datatype='string' name='To-User-Id' ordinal='4' />
+            <column datatype='string' name='Language' ordinal='5' />
+            <column datatype='string' name='Source' ordinal='6' />
+            <column datatype='string' name='Text' ordinal='7' />
+            <column datatype='string' name='Geo-Location-Latitude' ordinal='8' />
+            <column datatype='string' name='Geo-Location-Longitude' ordinal='9' />
+            <column datatype='integer' name='Retweet-Count' ordinal='10' />
+            <column datatype='string' name='Id' ordinal='11' />
+            <column datatype='string' name='polarity(Text)' ordinal='12' />
+            <column datatype='integer' name='confidence(Text)' ordinal='13' />
+            <column datatype='string' name='agreement(Text)' ordinal='14' />
+            <column datatype='string' name='subjectivity(Text)' ordinal='15' />
+            <column datatype='string' name='irony(Text)' ordinal='16' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1786a4l1lbw3ch11o9fjz06piak7' name='Sentiment Analysis ' table='[&apos;Sentiment Analysis $&apos;]' type='table'>
+          <columns gridOrigin='A1:Q1001:no:A1:Q1001:0' header='yes' lost='0' outcome='2' processed='6000'>
+            <column datatype='datetime' name='Created-At' ordinal='0' />
+            <column datatype='string' name='From-User' ordinal='1' />
+            <column datatype='string' name='From-User-Id' ordinal='2' />
+            <column datatype='string' name='To-User' ordinal='3' />
+            <column datatype='string' name='To-User-Id' ordinal='4' />
+            <column datatype='string' name='Language' ordinal='5' />
+            <column datatype='string' name='Source' ordinal='6' />
+            <column datatype='string' name='Text' ordinal='7' />
+            <column datatype='string' name='Geo-Location-Latitude' ordinal='8' />
+            <column datatype='string' name='Geo-Location-Longitude' ordinal='9' />
+            <column datatype='integer' name='Retweet-Count' ordinal='10' />
+            <column datatype='string' name='Id' ordinal='11' />
+            <column datatype='string' name='polarity(Text)' ordinal='12' />
+            <column datatype='integer' name='confidence(Text)' ordinal='13' />
+            <column datatype='string' name='agreement(Text)' ordinal='14' />
+            <column datatype='string' name='subjectivity(Text)' ordinal='15' />
+            <column datatype='string' name='irony(Text)' ordinal='16' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sentiment Analysis ]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:Q1001:no:A1:Q1001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Created-At</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Created-At]</local-name>
+            <parent-name>[Sentiment Analysis ]</parent-name>
+            <remote-alias>Created-At</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>From-User</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[From-User]</local-name>
+            <parent-name>[Sentiment Analysis ]</parent-name>
+            <remote-alias>From-User</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>From-User-Id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[From-User-Id]</local-name>
+            <parent-name>[Sentiment Analysis ]</parent-name>
+            <remote-alias>From-User-Id</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>To-User</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[To-User]</local-name>
+            <parent-name>[Sentiment Analysis ]</parent-name>
+            <remote-alias>To-User</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>To-User-Id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[To-User-Id]</local-name>
+            <parent-name>[Sentiment Analysis ]</parent-name>
+            <remote-alias>To-User-Id</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Language</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Language]</local-name>
+            <parent-name>[Sentiment Analysis ]</parent-name>
+            <remote-alias>Language</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Source</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Source]</local-name>
+            <parent-name>[Sentiment Analysis ]</parent-name>
+            <remote-alias>Source</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Text</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Text]</local-name>
+            <parent-name>[Sentiment Analysis ]</parent-name>
+            <remote-alias>Text</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Geo-Location-Latitude</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Geo-Location-Latitude]</local-name>
+            <parent-name>[Sentiment Analysis ]</parent-name>
+            <remote-alias>Geo-Location-Latitude</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Geo-Location-Longitude</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Geo-Location-Longitude]</local-name>
+            <parent-name>[Sentiment Analysis ]</parent-name>
+            <remote-alias>Geo-Location-Longitude</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Retweet-Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Retweet-Count]</local-name>
+            <parent-name>[Sentiment Analysis ]</parent-name>
+            <remote-alias>Retweet-Count</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Id]</local-name>
+            <parent-name>[Sentiment Analysis ]</parent-name>
+            <remote-alias>Id</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>polarity(Text)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[polarity(Text)]</local-name>
+            <parent-name>[Sentiment Analysis ]</parent-name>
+            <remote-alias>polarity(Text)</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>confidence(Text)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[confidence(Text)]</local-name>
+            <parent-name>[Sentiment Analysis ]</parent-name>
+            <remote-alias>confidence(Text)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>agreement(Text)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[agreement(Text)]</local-name>
+            <parent-name>[Sentiment Analysis ]</parent-name>
+            <remote-alias>agreement(Text)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>subjectivity(Text)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[subjectivity(Text)]</local-name>
+            <parent-name>[Sentiment Analysis ]</parent-name>
+            <remote-alias>subjectivity(Text)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>irony(Text)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[irony(Text)]</local-name>
+            <parent-name>[Sentiment Analysis ]</parent-name>
+            <remote-alias>irony(Text)</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' default-role='measure' default-type='ordinal' hidden='true' name='[Geo-Location-Latitude]' role='dimension' type='nominal' />
+      <column datatype='string' default-role='measure' default-type='ordinal' hidden='true' name='[Geo-Location-Longitude]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sentiment Analysis ' datatype='table' name='[__tableau_internal_object_id__].[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sentiment Analysis ' id='Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D'>
+            <properties context=''>
+              <relation connection='excel-direct.1786a4l1lbw3ch11o9fjz06piak7' name='Sentiment Analysis ' table='[&apos;Sentiment Analysis $&apos;]' type='table'>
+                <columns gridOrigin='A1:Q1001:no:A1:Q1001:0' header='yes' lost='0' outcome='2' processed='6000'>
+                  <column datatype='datetime' name='Created-At' ordinal='0' />
+                  <column datatype='string' name='From-User' ordinal='1' />
+                  <column datatype='string' name='From-User-Id' ordinal='2' />
+                  <column datatype='string' name='To-User' ordinal='3' />
+                  <column datatype='string' name='To-User-Id' ordinal='4' />
+                  <column datatype='string' name='Language' ordinal='5' />
+                  <column datatype='string' name='Source' ordinal='6' />
+                  <column datatype='string' name='Text' ordinal='7' />
+                  <column datatype='string' name='Geo-Location-Latitude' ordinal='8' />
+                  <column datatype='string' name='Geo-Location-Longitude' ordinal='9' />
+                  <column datatype='integer' name='Retweet-Count' ordinal='10' />
+                  <column datatype='string' name='Id' ordinal='11' />
+                  <column datatype='string' name='polarity(Text)' ordinal='12' />
+                  <column datatype='integer' name='confidence(Text)' ordinal='13' />
+                  <column datatype='string' name='agreement(Text)' ordinal='14' />
+                  <column datatype='string' name='subjectivity(Text)' ordinal='15' />
+                  <column datatype='string' name='irony(Text)' ordinal='16' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='BJP Sentiment Analysis'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Multiple Connections' name='federated.0cuku440mj1qkc11m2os41p7arwc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0cuku440mj1qkc11m2os41p7arwc'>
+            <column datatype='integer' name='[Retweet-Count]' role='measure' type='quantitative' />
+            <column-instance column='[confidence(Text)]' derivation='Avg' name='[avg:confidence(Text):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[polarity(Text)]' derivation='Count' name='[cnt:polarity(Text):qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[confidence(Text)]' role='measure' type='quantitative' />
+            <column-instance column='[polarity(Text)]' derivation='None' name='[none:polarity(Text):nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[polarity(Text)]' role='dimension' type='nominal' />
+            <column-instance column='[Retweet-Count]' derivation='Sum' name='[sum:Retweet-Count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0cuku440mj1qkc11m2os41p7arwc].[none:polarity(Text):nk]' />
+              <text column='[federated.0cuku440mj1qkc11m2os41p7arwc].[cnt:polarity(Text):qk]' />
+              <lod column='[federated.0cuku440mj1qkc11m2os41p7arwc].[sum:Retweet-Count:qk]' />
+              <lod column='[federated.0cuku440mj1qkc11m2os41p7arwc].[avg:confidence(Text):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0cuku440mj1qkc11m2os41p7arwc].[cnt:polarity(Text):qk]</rows>
+        <cols>[federated.0cuku440mj1qkc11m2os41p7arwc].[none:polarity(Text):nk]</cols>
+      </table>
+      <simple-id uuid='{07D1CFD0-1B3E-4C1C-A292-506874309D1F}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='BJP Sentiment Analysis'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0cuku440mj1qkc11m2os41p7arwc].[none:polarity(Text):nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0cuku440mj1qkc11m2os41p7arwc].[none:polarity(Text):nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{51FE9FC4-A1F1-4A62-BF9F-A57A5E6F7FBF}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='BJP Sentiment Analysis' width='192'>
+      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
+      AElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>

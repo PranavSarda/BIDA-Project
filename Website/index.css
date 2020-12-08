@@ -206,6 +206,7 @@ body {
 .card:nth-child(3):before {
   background-image: url(img/wallpaper-2020-us-presidential-election_52683-48919.jpg);
   opacity: 0.5;
+  background-size: 100%;
 }
 /* .card:nth-child(4):before {
   background-image: url(https://i.pinimg.com/originals/46/78/82/46788286ed572a1263c10ee252783c8c.gif);

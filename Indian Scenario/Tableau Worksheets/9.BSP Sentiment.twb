@@ -15,15 +15,15 @@
     <preference name='ui.shelf.height' value='26' />
   </preferences>
   <datasources>
-    <datasource caption='Multiple Connections' inline='true' name='federated.0cuku440mj1qkc11m2os41p7arwc' version='18.1'>
+    <datasource caption='Sentiment Analysis  (9.bsp_general)' inline='true' name='federated.17tlb0j0jrv3tu18wwlvc0z6wzwi' version='18.1'>
       <connection class='federated'>
         <named-connections>
-          <named-connection caption='1.bjp_general' name='excel-direct.1786a4l1lbw3ch11o9fjz06piak7'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/prana/BIDA Project/Indian Scenario/1.bjp_general.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          <named-connection caption='9.bsp_general' name='excel-direct.1hbppce162064o1dj21tz0ixwb2c'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/prana/BIDA Project/Indian Scenario/9.bsp_general.xlsx' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
         </named-connections>
-        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1786a4l1lbw3ch11o9fjz06piak7' name='Sentiment Analysis ' table='[&apos;Sentiment Analysis $&apos;]' type='table'>
-          <columns gridOrigin='A1:Q1001:no:A1:Q1001:0' header='yes' lost='0' outcome='2' processed='6000'>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1hbppce162064o1dj21tz0ixwb2c' name='Sentiment Analysis ' table='[&apos;Sentiment Analysis $&apos;]' type='table'>
+          <columns gridOrigin='A1:Q1001:no:A1:Q1001:0' header='yes' outcome='2'>
             <column datatype='datetime' name='Created-At' ordinal='0' />
             <column datatype='string' name='From-User' ordinal='1' />
             <column datatype='string' name='From-User-Id' ordinal='2' />
@@ -32,8 +32,8 @@
             <column datatype='string' name='Language' ordinal='5' />
             <column datatype='string' name='Source' ordinal='6' />
             <column datatype='string' name='Text' ordinal='7' />
-            <column datatype='string' name='Geo-Location-Latitude' ordinal='8' />
-            <column datatype='string' name='Geo-Location-Longitude' ordinal='9' />
+            <column datatype='real' name='Geo-Location-Latitude' ordinal='8' />
+            <column datatype='real' name='Geo-Location-Longitude' ordinal='9' />
             <column datatype='integer' name='Retweet-Count' ordinal='10' />
             <column datatype='string' name='Id' ordinal='11' />
             <column datatype='string' name='polarity(Text)' ordinal='12' />
@@ -43,8 +43,8 @@
             <column datatype='string' name='irony(Text)' ordinal='16' />
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
-        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1786a4l1lbw3ch11o9fjz06piak7' name='Sentiment Analysis ' table='[&apos;Sentiment Analysis $&apos;]' type='table'>
-          <columns gridOrigin='A1:Q1001:no:A1:Q1001:0' header='yes' lost='0' outcome='2' processed='6000'>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1hbppce162064o1dj21tz0ixwb2c' name='Sentiment Analysis ' table='[&apos;Sentiment Analysis $&apos;]' type='table'>
+          <columns gridOrigin='A1:Q1001:no:A1:Q1001:0' header='yes' outcome='2'>
             <column datatype='datetime' name='Created-At' ordinal='0' />
             <column datatype='string' name='From-User' ordinal='1' />
             <column datatype='string' name='From-User-Id' ordinal='2' />
@@ -53,8 +53,8 @@
             <column datatype='string' name='Language' ordinal='5' />
             <column datatype='string' name='Source' ordinal='6' />
             <column datatype='string' name='Text' ordinal='7' />
-            <column datatype='string' name='Geo-Location-Latitude' ordinal='8' />
-            <column datatype='string' name='Geo-Location-Longitude' ordinal='9' />
+            <column datatype='real' name='Geo-Location-Latitude' ordinal='8' />
+            <column datatype='real' name='Geo-Location-Longitude' ordinal='9' />
             <column datatype='integer' name='Retweet-Count' ordinal='10' />
             <column datatype='string' name='Id' ordinal='11' />
             <column datatype='string' name='polarity(Text)' ordinal='12' />
@@ -92,7 +92,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _21FF1ADABDDB4CEC927ED1457FFA797C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>From-User</remote-name>
@@ -108,7 +108,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _21FF1ADABDDB4CEC927ED1457FFA797C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>From-User-Id</remote-name>
@@ -124,7 +124,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _21FF1ADABDDB4CEC927ED1457FFA797C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>To-User</remote-name>
@@ -140,7 +140,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _21FF1ADABDDB4CEC927ED1457FFA797C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>To-User-Id</remote-name>
@@ -156,7 +156,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _21FF1ADABDDB4CEC927ED1457FFA797C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Language</remote-name>
@@ -172,7 +172,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _21FF1ADABDDB4CEC927ED1457FFA797C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Source</remote-name>
@@ -188,7 +188,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _21FF1ADABDDB4CEC927ED1457FFA797C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Text</remote-name>
@@ -204,39 +204,39 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _21FF1ADABDDB4CEC927ED1457FFA797C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Geo-Location-Latitude</remote-name>
-            <remote-type>130</remote-type>
+            <remote-type>5</remote-type>
             <local-name>[Geo-Location-Latitude]</local-name>
             <parent-name>[Sentiment Analysis ]</parent-name>
             <remote-alias>Geo-Location-Latitude</remote-alias>
             <ordinal>8</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
             <contains-null>true</contains-null>
-            <collation flag='1' name='LEN_RIN_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _21FF1ADABDDB4CEC927ED1457FFA797C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Geo-Location-Longitude</remote-name>
-            <remote-type>130</remote-type>
+            <remote-type>5</remote-type>
             <local-name>[Geo-Location-Longitude]</local-name>
             <parent-name>[Sentiment Analysis ]</parent-name>
             <remote-alias>Geo-Location-Longitude</remote-alias>
             <ordinal>9</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
             <contains-null>true</contains-null>
-            <collation flag='1' name='LEN_RIN_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _21FF1ADABDDB4CEC927ED1457FFA797C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Retweet-Count</remote-name>
@@ -251,7 +251,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _21FF1ADABDDB4CEC927ED1457FFA797C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Id</remote-name>
@@ -267,7 +267,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _21FF1ADABDDB4CEC927ED1457FFA797C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>polarity(Text)</remote-name>
@@ -283,7 +283,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _21FF1ADABDDB4CEC927ED1457FFA797C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>confidence(Text)</remote-name>
@@ -298,7 +298,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _21FF1ADABDDB4CEC927ED1457FFA797C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>agreement(Text)</remote-name>
@@ -314,7 +314,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _21FF1ADABDDB4CEC927ED1457FFA797C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>subjectivity(Text)</remote-name>
@@ -330,7 +330,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _21FF1ADABDDB4CEC927ED1457FFA797C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>irony(Text)</remote-name>
@@ -346,24 +346,24 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sentiment Analysis _21FF1ADABDDB4CEC927ED1457FFA797C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
         </metadata-records>
       </connection>
       <aliases enabled='yes' />
-      <column datatype='string' default-role='measure' default-type='ordinal' hidden='true' name='[Geo-Location-Latitude]' role='dimension' type='nominal' />
-      <column datatype='string' default-role='measure' default-type='ordinal' hidden='true' name='[Geo-Location-Longitude]' role='dimension' type='nominal' />
-      <_.fcp.ObjectModelTableType.true...column caption='Sentiment Analysis ' datatype='table' name='[__tableau_internal_object_id__].[Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D]' role='measure' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Geo-Location-Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Geo-Location-Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sentiment Analysis ' datatype='table' name='[__tableau_internal_object_id__].[Sentiment Analysis _21FF1ADABDDB4CEC927ED1457FFA797C]' role='measure' type='quantitative' />
       <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
       </semantic-values>
       <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
         <objects>
-          <object caption='Sentiment Analysis ' id='Sentiment Analysis _4FC89FCC013148D3942C3315DDF9AC1D'>
+          <object caption='Sentiment Analysis ' id='Sentiment Analysis _21FF1ADABDDB4CEC927ED1457FFA797C'>
             <properties context=''>
-              <relation connection='excel-direct.1786a4l1lbw3ch11o9fjz06piak7' name='Sentiment Analysis ' table='[&apos;Sentiment Analysis $&apos;]' type='table'>
-                <columns gridOrigin='A1:Q1001:no:A1:Q1001:0' header='yes' lost='0' outcome='2' processed='6000'>
+              <relation connection='excel-direct.1hbppce162064o1dj21tz0ixwb2c' name='Sentiment Analysis ' table='[&apos;Sentiment Analysis $&apos;]' type='table'>
+                <columns gridOrigin='A1:Q1001:no:A1:Q1001:0' header='yes' outcome='2'>
                   <column datatype='datetime' name='Created-At' ordinal='0' />
                   <column datatype='string' name='From-User' ordinal='1' />
                   <column datatype='string' name='From-User-Id' ordinal='2' />
@@ -372,8 +372,8 @@
                   <column datatype='string' name='Language' ordinal='5' />
                   <column datatype='string' name='Source' ordinal='6' />
                   <column datatype='string' name='Text' ordinal='7' />
-                  <column datatype='string' name='Geo-Location-Latitude' ordinal='8' />
-                  <column datatype='string' name='Geo-Location-Longitude' ordinal='9' />
+                  <column datatype='real' name='Geo-Location-Latitude' ordinal='8' />
+                  <column datatype='real' name='Geo-Location-Longitude' ordinal='9' />
                   <column datatype='integer' name='Retweet-Count' ordinal='10' />
                   <column datatype='string' name='Id' ordinal='11' />
                   <column datatype='string' name='polarity(Text)' ordinal='12' />
@@ -390,13 +390,13 @@
     </datasource>
   </datasources>
   <worksheets>
-    <worksheet name='1.BJP Sentiment'>
+    <worksheet name='9.BSP Sentiment'>
       <table>
         <view>
           <datasources>
-            <datasource caption='Multiple Connections' name='federated.0cuku440mj1qkc11m2os41p7arwc' />
+            <datasource caption='Sentiment Analysis  (9.bsp_general)' name='federated.17tlb0j0jrv3tu18wwlvc0z6wzwi' />
           </datasources>
-          <datasource-dependencies datasource='federated.0cuku440mj1qkc11m2os41p7arwc'>
+          <datasource-dependencies datasource='federated.17tlb0j0jrv3tu18wwlvc0z6wzwi'>
             <column datatype='integer' name='[Retweet-Count]' role='measure' type='quantitative' />
             <column-instance column='[confidence(Text)]' derivation='Avg' name='[avg:confidence(Text):qk]' pivot='key' type='quantitative' />
             <column-instance column='[polarity(Text)]' derivation='Count' name='[cnt:polarity(Text):qk]' pivot='key' type='quantitative' />
@@ -415,27 +415,27 @@
             </view>
             <mark class='Automatic' />
             <encodings>
-              <color column='[federated.0cuku440mj1qkc11m2os41p7arwc].[none:polarity(Text):nk]' />
-              <text column='[federated.0cuku440mj1qkc11m2os41p7arwc].[cnt:polarity(Text):qk]' />
-              <lod column='[federated.0cuku440mj1qkc11m2os41p7arwc].[sum:Retweet-Count:qk]' />
-              <lod column='[federated.0cuku440mj1qkc11m2os41p7arwc].[avg:confidence(Text):qk]' />
+              <color column='[federated.17tlb0j0jrv3tu18wwlvc0z6wzwi].[none:polarity(Text):nk]' />
+              <lod column='[federated.17tlb0j0jrv3tu18wwlvc0z6wzwi].[sum:Retweet-Count:qk]' />
+              <lod column='[federated.17tlb0j0jrv3tu18wwlvc0z6wzwi].[avg:confidence(Text):qk]' />
+              <text column='[federated.17tlb0j0jrv3tu18wwlvc0z6wzwi].[cnt:polarity(Text):qk]' />
             </encodings>
             <style>
               <style-rule element='mark'>
-                <format attr='mark-labels-cull' value='true' />
                 <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
               </style-rule>
             </style>
           </pane>
         </panes>
-        <rows>[federated.0cuku440mj1qkc11m2os41p7arwc].[cnt:polarity(Text):qk]</rows>
-        <cols>[federated.0cuku440mj1qkc11m2os41p7arwc].[none:polarity(Text):nk]</cols>
+        <rows>[federated.17tlb0j0jrv3tu18wwlvc0z6wzwi].[cnt:polarity(Text):qk]</rows>
+        <cols>[federated.17tlb0j0jrv3tu18wwlvc0z6wzwi].[none:polarity(Text):nk]</cols>
       </table>
-      <simple-id uuid='{07D1CFD0-1B3E-4C1C-A292-506874309D1F}' />
+      <simple-id uuid='{2AD2886D-BB7E-4DCF-82EA-78998792BB78}' />
     </worksheet>
   </worksheets>
   <windows source-height='30'>
-    <window class='worksheet' maximized='true' name='1.BJP Sentiment'>
+    <window class='worksheet' maximized='true' name='9.BSP Sentiment'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -457,122 +457,114 @@
         </edge>
         <edge name='right'>
           <strip size='160'>
-            <card pane-specification-id='0' param='[federated.0cuku440mj1qkc11m2os41p7arwc].[none:polarity(Text):nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.17tlb0j0jrv3tu18wwlvc0z6wzwi].[none:polarity(Text):nk]' type='color' />
           </strip>
         </edge>
       </cards>
       <viewpoint>
         <highlight>
           <color-one-way>
-            <field>[federated.0cuku440mj1qkc11m2os41p7arwc].[none:polarity(Text):nk]</field>
+            <field>[federated.17tlb0j0jrv3tu18wwlvc0z6wzwi].[none:polarity(Text):nk]</field>
           </color-one-way>
         </highlight>
       </viewpoint>
-      <simple-id uuid='{51FE9FC4-A1F1-4A62-BF9F-A57A5E6F7FBF}' />
+      <simple-id uuid='{0D7D7113-07BC-4610-8F8A-3CECC28DDAAA}' />
     </window>
   </windows>
   <thumbnails>
-    <thumbnail height='192' name='1.BJP Sentiment' width='192'>
+    <thumbnail height='192' name='9.BSP Sentiment' width='192'>
       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
-      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
+      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
+      SUVORK5CYII=
     </thumbnail>
   </thumbnails>
 </workbook>

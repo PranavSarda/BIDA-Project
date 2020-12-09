@@ -6,5 +6,5 @@ Twitter Based Political Analysis
 
 ### Project deployed at : 
 
-> https://kundankabra.github.io/bida_mini_project.github.io/
+> https://pranavsarda.github.io/BIDA-Project/Website/index.html
 <hr>

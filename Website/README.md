@@ -1,32 +1,29 @@
 # Buisness Intelligence and Data Analytics Mini Project - 
 
-Political Analysis through Twitter Data
+<div style="color:red;">INDIAN MOVIES ANALYSIS</div>
+
 <hr>
 
 ### The project is deployed at : 
 
-> https://pranavsarda.github.io/BIDA-Project/Website/index.html
+> https://kundankabra.github.io/bida_mini_project.github.io/
 <hr>
 
 ## Problem Statement :
 
-  Try to predict the results of a local Indian Election through Sentiment Analysis of Tweets gathered from TwitterAPI. Compare the results of those Elections against the predicted results and the possible factors that may have affected the results. Also, try to analyze the Indian Political Scenario through general Twitter Sentiment Analysis. Also, try to analyze the results of the US Political Elections 2020 based on the available Tweets, and derive meaningful inferences from the same. 
+  A newly launched OTT platform wishes to list certain movies to increase traffic on their platform.
+  To analyze the various aspects and trends of Indian movies, 
+  Their data analytics team has gathered database of Movies from 1950 to 2019 having various attributes and various 
+  underlying influencing factors.
+  The platform also desires to produce audience-centric series/movies on the current trends of actors , genres , plot and IMDB rating 
+  and redefine the way Indian audience consume content
   
   
 >Tools Used: 
-1) Rapidminer
-2) Tableau Desktop 
-3) Tableau Online 
-4) Tableau Public 
-5) Twitter API
-6) Git & Github
+1) Tableau (for data analysis)
+2) Rapid Miner (for Sentiment Analysis)
+3) Github (for Deployment)
 
-
->Languages Used: 
+>languages Used: 
 1) HTML , CSS, Bootstrap, JS (for website)
 2) Python
-
->Datasets Used:
-1) US Election 2020 Tweets | Kaggle
-2) Indian Election Tweets through Twitter API
-3) GHMC Election Tweets through Twitter API

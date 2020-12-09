@@ -13416,7 +13416,7 @@ div#notebook {
 <span class="n">Trump_Tweets</span><span class="p">[</span><span class="s1">&#39;analysis&#39;</span><span class="p">]</span>    <span class="o">=</span> <span class="n">Trump_Tweets</span><span class="p">[</span><span class="s1">&#39;polarity&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">getAnalysis</span><span class="p">)</span>
 
 <span class="n">Trump_Tweets</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-<span class="n">Trump_Tweets</span><span class="o">.</span><span class="n">to_excel</span><span class="p">(</span><span class="s1">&#39;Archive/sent_donaldtrump.csv&#39;</span><span class="p">)</span>
+<span class="n">Trump_Tweets</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;Archive/sent_donaldtrump.csv&#39;</span><span class="p">)</span>
 </pre></div>
 
     </div>
